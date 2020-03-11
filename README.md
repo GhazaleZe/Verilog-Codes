@@ -20,6 +20,7 @@ This is a Quad 2-Input Multiplexer with the below function table:
 H = HIGH Level
 L = LOW Level
 X = Irrelevan
+
 The delay for gates are in the below table :
 | Gate | Delay|
 | ------ | ------ |
@@ -27,6 +28,10 @@ The delay for gates are in the below table :
 | AND | 3 |
 | NOT | 2 |
 
-### Shift Register
+### Shift Register:
+This is an 8 bits shift register with inputs: clk, load, right.
+when "load" actives, it initialize with zero.
+when "right" is an active-high, it shifts one bit to the right. On the other hand, when "right" is an active-low, it shifts one bit to the left.
+> Note: Do not use Verilog's shift operations.
 
 
