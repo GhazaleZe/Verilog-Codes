@@ -16,6 +16,7 @@ This is a Quad 2-Input Multiplexer with the below function table:
 | L| L | H | X | H|
 | L| H | X | L | L|
 |  L| H | X | H | H|
+
 H = HIGH Level
 L = LOW Level
 X = Irrelevan
@@ -26,5 +27,6 @@ The delay for gates are in the below table :
 | AND | 3 |
 | NOT | 2 |
 
+### Shift Register
 
 
