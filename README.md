@@ -34,6 +34,6 @@ This is an 8 bits shift register with inputs: clk, load, right.
 When "load" actives, it initialize with zero.
 
 When "right" is an active-high, it shifts one bit to the right. On the other hand, when "right" is an active-low, it shifts one bit to the left.
-> Note: Do not use Verilog's shift operations.
+> Note: The point of this question is: do it without Verilog's shift operations.
 
 
