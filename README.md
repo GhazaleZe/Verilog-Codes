@@ -1,7 +1,7 @@
 # Verilog Codes
 
 ## main explanation:
- It's better to have a separate test module for Verilog codes, hence  "top modules" are for testing "main modules". 
+ It's better to have a separate test module for Verilog codes, hence  "top modules" are for testing "main modules". :sweat_smile: 
  ### ALU:
 This module defined at a behavioral level. 
 The ALU handles 4 operations. It has 2 inputs and 1 output.
@@ -34,6 +34,6 @@ This is an 8 bits shift register with inputs: clk, load, right.
 When "load" actives, it initialize with zero.
 
 When "right" is an active-high, it shifts one bit to the right. On the other hand, when "right" is an active-low, it shifts one bit to the left.
-> Note: The point of this question is: do it without Verilog's shift operations.
+> Note: The point of this question is: do it without Verilog's shift operations. :neutral_face:
 
 
